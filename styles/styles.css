@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+body {
+  background-color: #F9F9F9;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+body [class*=__container] {
+  max-width: 1438px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+body .btn {
+  background: #181818;
+  padding: 17px 14.839px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.header {
+  margin-top: 29px;
+  margin-bottom: 42px;
+  max-height: 50px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.header .header__container-big {
+  max-width: 1655px;
+  background-color: #F9F9F9;
+}
+.header__logo {
+  display: block;
+  max-width: 274px;
+  max-height: 49px;
+  margin-right: 130px;
+}
+.header__logo::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  background: url(../img/logo.svg) 0 0 no-repeat;
+  width: 274px;
+  height: 49px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.header__link {
+  display: inline-block;
+  transition: all ease 0.8s;
+}
+.header__link:hover {
+  color: rgba(24, 24, 24, 0.4745098039);
+  text-shadow: 2px 3px 3px red;
+  transform: translateY(2px);
+}
+.header__active {
+  display: flex;
+  align-items: center;
+  column-gap: 165px;
+}
+.main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 15px;
+}
+.main__info {
+  flex: 0 1 40%;
+  max-width: 555px;
+  position: relative;
+}
+.main__info:not(:last-child) {
+  margin-bottom: 10px;
+}
+.main__info::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 40px;
+  height: 33px;
+  background: url(../img/decor_1.png) 0 0 no-repeat;
+}
+.main__title {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 1.25;
+  font-variant: all-small-caps;
+}
+.main__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.main__text:not(:last-child) {
+  margin-bottom: 50px;
+}
+.main__image {
+  flex: 0 1 45%;
+}
+
+.contact__container {
+  padding-left: 135px !important;
+  display: flex;
+  gap: 60px;
+}
+.contact__text {
+  padding-top: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 107.4%;
+  color: #979797;
+  margin-bottom: 10px;
+}
+.contact__number {
+  line-height: 107.4%;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
